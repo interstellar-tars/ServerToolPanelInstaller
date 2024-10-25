@@ -2,9 +2,9 @@
 
 # Variables
 REPO_URL="https://github.com/interstellar-tars/ServerToolPanel"  # Replace with your GitHub repository
-APP_NAME="server_tool"
-APP_DIR="/opt/$APP_NAME"
-SERVICE_NAME="server_tool.service"
+APP_NAME="ServerToolPanel"
+APP_DIR="/etc/$APP_NAME"
+SERVICE_NAME="servertoolpanel.service"
 NGINX_CONFIG_PATH="/etc/nginx/nginx.conf"
 
 # Check if the script is run as root
